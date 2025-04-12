@@ -36,9 +36,6 @@ class MainActivity : ComponentActivity() {
                     num2 = it;
                 })
 
-                val a = num1.toIntOrNull()
-                val b = num2.toIntOrNull()
-
                 Spacer(modifier = Modifier.height(16.dp))
                 Row {
                     Button(onClick = {
